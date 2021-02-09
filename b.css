@@ -1,0 +1,39 @@
+.base-container{
+    text-align: center;
+    margin: 20px auto;
+}
+.container
+{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(9,60px);
+    width: 540px;
+    height: 467px;
+    /* justify-content: center; */
+    
+}
+.game-div{
+    height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: antiquewhite;
+    box-shadow: 2px;
+
+}
+
+.green-div{
+    height: 50px;
+    border: 1px solid black;
+    
+    background-color: green;
+    box-shadow: 2px;
+}
+
+.red-div{
+    height: 50px;
+    border: 1px solid black;
+    background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png");
+    background-repeat: no-repeat;
+    background-color: red;
+    box-shadow: 2px;
+}
